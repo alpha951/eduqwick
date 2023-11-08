@@ -1,0 +1,17 @@
+.container-announce {
+  border: 2px solid black;
+  height: 3rem;
+  /* margin: 0 auto; */
+  text-align: center;
+  background-color: #fce09b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.col {
+  padding-top: 0.45rem;
+}
+
+.alert-icon {
+  height: 10rem;
+}
