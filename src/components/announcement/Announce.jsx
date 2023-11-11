@@ -1,24 +1,30 @@
+import { useState, useEffect } from "react";
 import CampaignIcon from "@mui/icons-material/Campaign";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-
 import "./Announce.css";
 
 const Announce = () => {
+  const [announcements, setAnnouncements] = useState([]);
+
+  // Simulate fetching data from a JSON file
+  useEffect(() => {
+    // Assuming announcements.json has an array of announcement objects
+    fetch("../../../data/announcements.json")
+      .then((response) => response.json())
+      .then((data) => setAnnouncements(data))
+      .catch((error) => console.error("Error fetching announcements:", error));
+  }, []);
+
   return (
-    <Container className='container-announce'>
-      <Row className='justify-content-md-center'>
-        <Col xs={0}>
-          <CampaignIcon className='alert-icon' />
-        </Col>
-        {/* These below cols data should be load dynamically from backend/json file */}
-        <Col>JEE Answer key 2023 released</Col>
-        <Col>DU to release new course list</Col>
-        <Col>LPU application form live</Col>
-        <Col>Parul to conduct convocation</Col>
-      </Row>
-    </Container>
+    <div className='container-announce'>
+      <div className='row-announce'>
+        {announcements.map((announcement, index) => (
+          <div key={index} className='announcement-col'>
+            <CampaignIcon className='alert-icon' />
+            {announcement.event}
+          </div>
+        ))}
+      </div>
+    </div>
   );
 };
 
