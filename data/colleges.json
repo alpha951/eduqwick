@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Engineering",
+    "url": "/engineering"
+  },
+  {
+    "name": "Management",
+    "url": "/management"
+  },
+  {
+    "name": "Design",
+    "url": "/design"
+  },
+  {
+    "name": "Hotel Management",
+    "url": "/hotel-management"
+  },
+  {
+    "name": "Medical",
+    "url": "/medical"
+  },
+  {
+    "name": "Physiotherapy",
+    "url": "/physiotherapy"
+  },
+  {
+    "name": "Science",
+    "url": "/science"
+  },
+  {
+    "name": "Mass Comm & Journalism",
+    "url": "/mcj"
+  },
+  {
+    "name": "Nursing",
+    "url": "/nursing"
+  },
+  {
+    "name": "Information Technology",
+    "url": "/it"
+  },
+  {
+    "name": "Pharmacy",
+    "url": "/pharmacy"
+  },
+  {
+    "name": "Law",
+    "url": "/law"
+  },
+  {
+    "name": "Fashion Designing",
+    "url": "/Fashion"
+  },
+  {
+    "name": "Dental",
+    "url": "/dental"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Bachelor of Technology",
+    "url": "/btech"
+  },
+  {
+    "name": "Master of Technology",
+    "url": "/mtech"
+  },
+  {
+    "name": "MBBS",
+    "url": "/mbbs"
+  },
+  {
+    "name": "Bachelor of Science",
+    "url": "/bsc"
+  }
+]
