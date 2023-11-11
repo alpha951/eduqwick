@@ -8,7 +8,7 @@ const Announce = () => {
   // Simulate fetching data from a JSON file
   useEffect(() => {
     // Assuming announcements.json has an array of announcement objects
-    fetch("../../../data/announcements.json")
+    fetch("./data/announcements.json")
       .then((response) => response.json())
       .then((data) => setAnnouncements(data))
       .catch((error) => console.error("Error fetching announcements:", error));

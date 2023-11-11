@@ -11,17 +11,17 @@ function NavbarComponent() {
   useEffect(() => {
     // Simulate fetching data from a JSON file
     // Replace this with your actual data fetching logic when your backend is ready
-    fetch("../../../data/colleges.json")
+    fetch("./data/colleges.json")
       .then((response) => response.json())
       .then((data) => setCollegesData(data))
       .catch((error) => console.error("Error fetching colleges data:", error));
 
-    fetch("../../../data/courses.json")
+    fetch("./data/courses.json")
       .then((response) => response.json())
       .then((data) => setCoursesData(data))
       .catch((error) => console.error("Error fetching colleges data:", error));
 
-    fetch("../../../data/exams.json")
+    fetch("./data/exams.json")
       .then((response) => response.json())
       .then((data) => setExamsData(data))
       .catch((error) => console.error("Error fetching colleges data:", error));
