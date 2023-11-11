@@ -1,57 +1,35 @@
-/*
-
 .container {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  border: 2px solid #f5f7f8;
-  border-radius: 17rem;
-  background-color: #f5f7f8;
-}
-
-.mid-col {
-  justify-content: center;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-.action {
-  border: 3px solid black;
-  border-radius: 0.2rem;
-  background-color: #ff5b22;
-  color: black;
-  width: 11rem;
-  height: 2.8rem;
-  padding: 0.3rem;
-  font-weight: bold;
-  margin: 0 auto;
-  margin-top: 1.5rem;
-}
-
-.cta {
-  margin-top: 2rem;
-  width: 11rem;
-  padding: 0.3rem;
-  font-weight: bold;
-  font-size: larger;
-} */
-
-.container {
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  border: 2px solid #ecf0f1; /* Border color */
+  margin-top: -1.5rem;
+  margin-bottom: -2rem;
+  border: 2px solid #ecf0f1;
   border-radius: 15px;
   background-color: #ecf0f1;
-  padding: 2rem; /* Adjust as needed */
+  padding: 2rem;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+  text-align: center;
+}
+
+.col img {
+  max-width: 100%;
+  height: auto;
 }
 
 .mid-col {
-  justify-content: center;
-  text-align: center;
   margin-top: 2rem;
 }
 
 .action {
-  border: 3px solid #2ecc71; /* Border color */
+  border: 3px solid #2ecc71;
   border-radius: 5px;
   background-color: #2ecc71;
   color: #ecf0f1;
@@ -68,5 +46,14 @@
   width: 11rem;
   padding: 0.3rem;
   font-weight: bold;
-  font-size: 1.2rem; /* Adjust as needed */
+  font-size: 1.2rem;
+  background-color: #3498db; /* Updated button color */
+  color: #ecf0f1;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta:hover {
+  background-color: #2980b9; /* Hover state color */
 }

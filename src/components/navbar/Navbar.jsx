@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import PersonIcon from "@mui/icons-material/Person";
 import "./Navbar.css";
 
 function NavbarComponent() {
@@ -157,6 +158,7 @@ function NavbarComponent() {
           Search{" "}
         </button>{" "}
       </form>
+      <PersonIcon className='person-icon' fontSize='large' />
     </div>
   );
 }

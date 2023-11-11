@@ -22,7 +22,8 @@
   white-space: nowrap;
   color: #ecf0f1; /* Text color */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Choose your font-family */
-  font-size: 1.2rem; /* Adjust as needed */
+  font-size: 1.3rem; /* Adjust as needed */
+  font-weight: bold;
   padding-right: 20px; /* Adjust space between announcements */
 }
 

@@ -50,6 +50,11 @@
   font-weight: bold;
 }
 
+.person-icon {
+  color: #ecf0f1; /* Icon color */
+  cursor: pointer;
+}
+
 .search-btn:hover {
   background-color: #27ae60; /* Hover background color */
 }
@@ -88,4 +93,37 @@
   background-color: #39a7ff; /* Hover background color */
   list-style-type: none;
   color: black;
+}
+
+/*
+Responsive design
+*/
+
+@media screen and (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .search-form {
+    margin-top: 1rem;
+  }
+
+  .search-btn {
+    margin-top: 1rem;
+  }
+
+  .dropdown {
+    position: static;
+    display: none;
+    margin-top: 1rem;
+  }
+
+  .dropdown-item {
+    margin: 0;
+  }
+
+  .nav-item {
+    position: static;
+  }
 }
