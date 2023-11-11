@@ -19,7 +19,7 @@ const Stats = () => {
       setStatsData((prevData) =>
         prevData.map((stat) => ({
           ...stat,
-          start: stat.end - 1000, // Start from 1000 less for animation effect
+          start: 0, // Start from 1000 less for animation effect
         }))
       );
     };
@@ -36,7 +36,7 @@ const Stats = () => {
             <CountUp
               start={stat.start}
               end={stat.end}
-              duration={2}
+              duration={5}
               separator=','
             />
           </div>
