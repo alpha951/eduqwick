@@ -38,16 +38,16 @@ export default function Footer() {
             </div>
             <div>
               <b>Social links</b>
-              <a href='facebbok.com'>
+              <a href='https://www.facebbok.com' target='blank'>
                 <Facebook />
               </a>
-              <a href='twitter.com'>
+              <a href='https://www.twitter.com' target='blank'>
                 <Twitter />
               </a>
-              <a href='twitter.com'>
+              <a href='https://www.Instagram.com' target='blank'>
                 <Instagram />
               </a>
-              <a href='twitter.com'>
+              <a href='https://www.Linkedin.com' target='blank'>
                 <LinkedIn />
               </a>
             </div>
