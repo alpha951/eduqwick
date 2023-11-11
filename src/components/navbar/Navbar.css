@@ -93,7 +93,6 @@
 
 .dropdown-item:hover {
   background-color: #39a7ff; /* Hover background color */
-  list-style-type: none;
   color: black;
 }
 
@@ -128,4 +127,8 @@ Responsive design
   .nav-item {
     position: static;
   }
+}
+
+li {
+  list-style-type: none;
 }
