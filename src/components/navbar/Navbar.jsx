@@ -58,11 +58,7 @@ function NavbarComponent() {
   return (
     <div className='navbar'>
       {/* ... (brand logo and other tabs) ... */}
-      <img
-        src='../../ui-idea/brand-logo.png'
-        className='brand-logo'
-        alt='Brand Logo'
-      />
+      <img src='./brand-logo.png' className='brand-logo' alt='Brand Logo' />
       <ul className='nav-list'>
         {/* Dropdown items  */}
         <li
