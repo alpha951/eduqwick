@@ -83,6 +83,8 @@
   padding: 0.3rem 0.5rem;
   margin-left: -1.5rem;
   margin-right: 1rem;
+  margin-top: -0.1rem;
+  margin-bottom: -0.1rem;
   text-decoration: none;
   color: #333333; /* Dropdown item text color */
   font-size: 0.85rem;
