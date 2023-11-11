@@ -1,0 +1,27 @@
+.container-stats {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ecf0f1; /* Lighter background color */
+  padding: 1.5rem; /* Adjust as needed */
+  border-radius: 10px; /* Adjust as needed */
+  width: 80%; /* Adjust the width as needed */
+  margin: 2rem auto; /* Center the container */
+}
+
+.stat-item {
+  text-align: center;
+  color: #3498db; /* Highlighted text color */
+}
+
+.stat-label {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Choose your font-family */
+  font-size: 1.2rem; /* Larger font size */
+  font-weight: bold; /* Bold text */
+}
+
+.stat-count {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* Choose your font-family */
+  font-size: 2rem; /* Larger font size */
+  font-weight: bold; /* Bold text */
+  color: #e74c3c; /* Highlighted text color */
+}
